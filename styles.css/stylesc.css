@@ -1,0 +1,44 @@
+body{
+    background-image: url(../krestiki-noliki-slozhilis-v-kletochki.jpg);
+}
+h1 {
+    color: cadetblue;
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3em;
+}
+table{
+    border-spacing: 0;
+    margin: auto;
+}
+.button{
+    text-align: center;
+}
+td{
+    width: 150px;
+    height: 150px;
+    border: 2px solid cadetblue;
+    text-align: center;
+}
+button{
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: cadetblue;
+    border: 1px solid #75636399 ;
+    width: 150px;
+    height: 40px;
+    transition: background-color 0.6s, transform 0.5s;
+}
+button:hover{
+    background: gold;
+    transform: scale(105%);
+}
+.checkList{
+    position: relative;
+    left: 1000px;
+    top: 38px;
+    border: 1px solid white;
+    width: 50px;
+}
