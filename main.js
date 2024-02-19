@@ -1,6 +1,9 @@
 let counter = 0;
 let cells = document.querySelectorAll('#tabel td');
 let header = document.getElementById('header');
+let winOne = document.getElementById('checkOne')
+let winTwo = document.getElementById('checkTwo')
+
 
 function isVictory() {
     let combos = [
@@ -35,9 +38,11 @@ function tap(event) {
         }
         if (counter % 2== 0){
             header.innerText = '"X" победили!'; 
+            winOne.innerText = ++winOne.innerText
         }
         else{
             header.innerText = '"O" победили!';
+            winTwo.innerText = ++winTwo.innerText
         }
     }
         else if (counter==8){
@@ -56,3 +61,5 @@ function startGame() {
     }
 }
 startGame()
+
+

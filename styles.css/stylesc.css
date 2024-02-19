@@ -1,4 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
+    overflow: auto;
     background-image: url(../krestiki-noliki-slozhilis-v-kletochki.jpg);
 }
 h1 {
@@ -9,6 +14,8 @@ h1 {
     font-size: 3em;
 }
 table{
+    position: relative;
+    bottom: 50px;
     border-spacing: 0;
     margin: auto;
 }
@@ -36,9 +43,14 @@ button:hover{
     transform: scale(105%);
 }
 .checkList{
+    text-align: center;
     position: relative;
     left: 1000px;
-    top: 38px;
+    top: 80px;
     border: 1px solid white;
     width: 50px;
+
+}
+.chek{
+    color: white;
 }
